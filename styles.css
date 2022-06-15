@@ -18,13 +18,24 @@ button{
     background-color: #025157;
 }
 
+.acciones button{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
 .header{
     margin: 40px 20px 0;
     font-size: 0;
+    height: 45px;
 }
 
 li{
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .header > * {
@@ -33,6 +44,7 @@ li{
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+    font-family: sans-serif;
 }
 
 .logo{
@@ -50,14 +62,23 @@ width: 15%;
     font-weight: 500;
 }
 
-.actions{
+.acciones{
     width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
 
+.acciones> * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .main{
     margin-top: 140px;
 
+}
+
+.acciones a{
+    color: #67b54b;
 }
