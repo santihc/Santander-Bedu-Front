@@ -1,5 +1,5 @@
 body{
-    background-color: #5368e2;
+    background-color: #a4aff4;
 }
 
 h1{
@@ -85,10 +85,26 @@ width: 15%;
     color: #67b54b;
 }
 
-.imcapterra{
-    text-align: center;
+img.imcapterra{
+    width: 35%;
+    display: block;
+    margin: 0px auto;
 }
 
 form{
     text-align: center;
+}
+
+.vid1{
+    text-align: center;
+}
+
+.pub1{
+    color: #025157;
+    text-align: left;
+}
+
+.parr1{
+    color: #343434;
+    text-align: left;
 }
