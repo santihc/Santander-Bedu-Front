@@ -108,3 +108,25 @@ form{
     color: #343434;
     text-align: left;
 }
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+
+}
+
+.publish{
+    margin-left: 40px;
+}
+
+.videopub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videopub img{
+    width: 10%;
+    margin-top: 15px;
+}
