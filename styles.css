@@ -141,3 +141,8 @@ form{
 
     background-color: aqua;
 }
+
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
